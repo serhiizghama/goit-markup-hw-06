@@ -705,6 +705,16 @@ a {
   fill: #f4f4fd;
 }
 
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
 .modal-window-second-btn {
   display: block;
   min-width: 169px;
@@ -1009,6 +1019,10 @@ a {
     margin: 0 auto;
   }
 
+  .second-section-icon-container {
+    display: none;
+  }
+
   .btn {
     padding: 16px 32px;
     font-weight: 500;
@@ -1033,14 +1047,6 @@ a {
     text-align: center;
     color: #fff;
     padding: 72px 32px;
-
-    /* font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    width: 216px;
-    height: 160px; */
   }
 
   .second-section {
@@ -1068,5 +1074,38 @@ a {
     /* Padding at the bottom */
   }
 
+  .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
 
+  .container {
+    max-width: 320px;
+    padding: 0 16px;
+  }
+
+  .section-p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+  }
+
+
+  .third-section {
+    padding-top: 96px;
+  }
+
+  .third-section-list {
+    gap: 72px;
+  }
+
+  .footer-text-socials-container {
+    padding-top: 72px;
+  }
 }
