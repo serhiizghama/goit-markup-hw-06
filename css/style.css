@@ -1087,6 +1087,7 @@ a {
   .container {
     max-width: 320px;
     padding: 0 16px;
+    padding-bottom: 32px;
   }
 
   .section-p {
@@ -1107,5 +1108,26 @@ a {
 
   .footer-text-socials-container {
     padding-top: 72px;
+  }
+
+  /* .app-card-image-container {
+    position: static;
+  } */
+
+  .app-category-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    color: #2e2f42;
+  }
+
+  .footer-text-socials-container {
+    margin-bottom: 0;
+    gap: 0;
+  }
+  .fourth-section-list-item:hover p {
+    transform: translateY(100%);
   }
 }
