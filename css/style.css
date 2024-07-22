@@ -165,7 +165,7 @@ a {
 .first-section {
   background-color: #2e2f42;
   padding: 188px 0;
-  height: 600px;
+  /* height: 600px; */
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
     url(../images/hero-bg.jpg);
@@ -276,7 +276,8 @@ a {
 
 .third-section-list {
   display: flex;
-  gap: 24px;
+  gap: 62px 24px;
+
 }
 
 .third-section-list-item {
@@ -298,6 +299,7 @@ a {
 
 .team-card-text {
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-card-socials {
@@ -341,8 +343,14 @@ a {
 }
 
 .fourth-section-title {
-  margin-bottom: 72px;
   text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .fourth-section-list {
@@ -527,7 +535,7 @@ a {
   display: flex;
   align-items: baseline;
   gap: 24px;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 
 /* MODAL WİNDOW */
@@ -873,6 +881,10 @@ a {
     max-width: 736px;
   }
 
+  .second-section-icon-container {
+    display: none;
+  }
+
   /* THIRD SECTION */
 
   .third-section {
@@ -888,14 +900,24 @@ a {
     flex-wrap: wrap;
   }
 
+  .section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+
   /* FOURTH SECTION */
 
   .fourth-section {
-    padding: 96px 12px;
+    padding: 96px 0;
   }
 
   .fourth-section-container {
-    padding: 0;
+    /* padding: 0; */
     width: 100%;
   }
 
@@ -905,14 +927,45 @@ a {
     padding: 0;
   }
 
+  .address-list-item {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    font-style: normal;
+    color: #434455;
+  }
+
   .footer-container {
     display: block;
     padding: 96px 108px;
     max-width: 100%;
   }
 
+  .first-section {
+    background-color: #2e2f42;
+    padding: 112px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/main-image-mob@2x.jpg);
+
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+  }
+
   .footer-logo-p-container {
     margin: 0;
+  }
+
+  .section-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
   }
 }
 
@@ -1007,7 +1060,6 @@ a {
   .first-section {
     background-color: #2e2f42;
     padding: 72px 0;
-
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
       url(../images/main-image-mob@2x.jpg);
@@ -1053,15 +1105,34 @@ a {
     padding: 96px 0px;
   }
 
+  .fourth-section-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+  }
+
+  .footer {
+    padding: 0;
+    padding-top: 48px;
+    padding-top: 48px;
+  }
 
   .first-section {
-    background-color: #4d5ae5;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
+    background-color: #2e2f42;
+    padding: 72px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/hero-bg.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
   }
 
   .first-section-container {
@@ -1087,7 +1158,7 @@ a {
   .container {
     max-width: 320px;
     padding: 0 16px;
-    padding-bottom: 32px;
+    /* padding-bottom: 32px; */
   }
 
   .section-p {
@@ -1098,6 +1169,10 @@ a {
   }
 
 
+  .team-card-text {
+    margin-bottom: 8px;
+  }
+
   .third-section {
     padding-top: 96px;
   }
@@ -1107,7 +1182,7 @@ a {
   }
 
   .footer-text-socials-container {
-    padding-top: 72px;
+    /* padding-top: 72px; */
   }
 
   /* .app-card-image-container {
@@ -1127,6 +1202,7 @@ a {
     margin-bottom: 0;
     gap: 0;
   }
+
   .fourth-section-list-item:hover p {
     transform: translateY(100%);
   }
