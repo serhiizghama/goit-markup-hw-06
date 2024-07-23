@@ -190,7 +190,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 .btn {
@@ -225,9 +225,9 @@ a {
   padding: 120px 0;
 }
 
-.second-section-list-item {
+/* .second-section-list-item {
   width: calc((100%-72px) / 4);
-}
+} */
 
 .visually-hidden {
   position: absolute;
@@ -244,7 +244,8 @@ a {
 
 .second-section-list {
   display: flex;
-  gap: 24px;
+  gap: 72px 0px;
+  justify-content: center;
 }
 
 .second-section-icon-container {
@@ -276,6 +277,7 @@ a {
 
 .third-section-list {
   display: flex;
+  justify-content: center;
   gap: 62px 24px;
 
 }
@@ -354,6 +356,7 @@ a {
 }
 
 .fourth-section-list {
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -367,6 +370,12 @@ a {
 }
 
 .app-category-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  color: #2e2f42;
   margin-bottom: 8px;
 }
 
@@ -406,7 +415,7 @@ a {
 /* FOOTER */
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0;
+  padding: 96px 0;
 }
 
 .footer-container {
@@ -876,9 +885,13 @@ a {
   }
 
   .second-section-list {
+    flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 736px;
+    display: flex;
+    gap: 72px 24px;
+    justify-content: center;
+    /* max-width: 736px; */
   }
 
   .second-section-icon-container {
@@ -898,6 +911,13 @@ a {
 
   .third-section-list {
     flex-wrap: wrap;
+  }
+
+  .footer-text-socials-container {
+    display: flex;
+    align-items: baseline;
+    gap: 24px;
+    margin-bottom: 72px;
   }
 
   .section-title {
@@ -923,9 +943,9 @@ a {
 
   /* FOOTER */
 
-  .footer {
+  /* .footer {
     padding: 0;
-  }
+  } */
 
   .address-list-item {
     display: block;
@@ -939,9 +959,19 @@ a {
 
   .footer-container {
     display: block;
-    padding: 96px 108px;
+    padding-left: 108px;
     max-width: 100%;
   }
+
+  .first-section-title {
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 496px;
+}
 
   .first-section {
     background-color: #2e2f42;
@@ -1040,9 +1070,9 @@ a {
     align-items: center;
   }
 
-  .footer-container {
+  /* .footer-container {
     padding: 96px 16px;
-  }
+  } */
 
   /* HAMBURGER MENU */
 
@@ -1092,13 +1122,13 @@ a {
   }
 
   .first-section-title {
-
     font-size: 40px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    max-width: 216px;
     text-align: center;
     color: #fff;
-    padding: 72px 32px;
+    margin-bottom: 72px;
   }
 
   .second-section {
@@ -1116,11 +1146,11 @@ a {
     margin-bottom: 72px;
   }
 
-  .footer {
+  /* .footer {
     padding: 0;
     padding-top: 48px;
     padding-top: 48px;
-  }
+  } */
 
   .first-section {
     background-color: #2e2f42;
